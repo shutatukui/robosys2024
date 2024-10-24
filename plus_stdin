@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+# SPDX-FileCopyrightText: 2024 Shuta Tsukui
+
 import sys
 
 ans = 0.0
