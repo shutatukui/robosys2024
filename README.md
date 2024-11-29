@@ -83,6 +83,13 @@
   - ubuntu 22.04.5
 
 
+# 参考にした文献
+[5分でマスター] 初心者はまずREADMEを書け [テンプレート付き]　https://qiita.com/Canard_engineer_c_cpp/items/81ce4e53881138dbf37f
+
+
+pytzを使ってpythonでタイムゾーンを扱う"正しい"方法　https://qiita.com/non_cal/items/2927fbdfa1d1f355b89d
+
+
 # ライセンス関係
 
 
