@@ -7,16 +7,13 @@ ng () {
 
 res=0
 
-out=$(seq 5 | ./plus)
-[ "${out}" = 15 ] || ng "$LINENO"
+out=$(echo "Asia/Tokyo" | ./kadai1/sys)
+[[ "$out" == *": 09:00:00 - 15:00:00"* ]] || ng "$LINENO"
 
-out=$(echo あ | ./plus)
+out=$(echo  | ./kadai/sys)
 [ "$?" = 1 ]      || ng "$LINENO"
-[ "${out}" = "" ] || ng "$LINENO"
+[ "${out}" = *""* ] || ng "$LINENO"
 
-out=$(echo | ./plus)
-[ "$?" = 1 ]      || ng "$LINENO"
-[ "${out}" = "" ] || ng "$LINENO"
 
 [ "$res" = 0 ] && echo OK
 exit $res

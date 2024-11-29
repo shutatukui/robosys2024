@@ -5,10 +5,10 @@ from datetime import datetime, time
 import sys
 
 def show_current_and_market_times(timezone):
-    try:
-        tz = pytz.timezone(timezone)
-    except pytz.UnknownTimeZoneError:
-        return
+    
+    tz = pytz.timezone(timezone)
+
+    
 
     #utc time
     now_utc = datetime.now(pytz.utc)
