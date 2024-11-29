@@ -34,8 +34,10 @@
  
 
 
+
  ``` sudo apt install python3-pip ```
  
+
 
 
 sudoのパスワードを聞かれた場合、パスワードを入力すれば次に進めます
