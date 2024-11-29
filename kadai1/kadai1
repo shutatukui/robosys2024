@@ -1,0 +1,41 @@
+#!/usr/bin/python3
+
+
+from datetime import datetime, time
+import pytz
+
+def show_current_and_market_times():
+
+    #timezone の設定
+    tokyo_tz = pytz.timezone('Asia/Tokyo')
+    ny_tz = pytz.timezone('America/New_York')
+
+    #標準時刻
+    now_utc = datetime.now(pytz.utc)
+
+    #現在時刻を東京とNY時刻に変える
+    now_tokyo = now_utc.astimezone(tokyo_tz)
+    now_ny = now_utc.astimezone(ny_tz)
+
+    #東京の開場閉場時間
+    tokyo_open = time(9, 0, 0)
+    tokyo_close = time(15, 0, 0)
+
+    #NY
+    ny_open = time(9, 30, 0)
+    ny_close = time(16, 0, 0)
+
+    #時刻表示
+    print()
+    print(f"世界標準時刻（UTC）    : {now_utc.strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"現在の日本時間（東京） : {now_tokyo.strftime('%Y-%m-%d %H:%M:&S')}")
+    print(f"現在のニューヨーク時間 : {now_ny.strftime('%Y-%m-%d %H:%M:%S')}")
+    print()
+
+    #開場閉場時間
+    print(f"東京証券取引所　営業時間 : {tokyo_open} - {tokyo_close} (JST)")
+    print(f"NY証券取引所　　営業時間 : {ny_open} - {ny_close} (EST/EDT)")
+    print()
+
+#実行
+show_current_and_market_times()

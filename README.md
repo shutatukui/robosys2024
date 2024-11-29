@@ -1,2 +1,3 @@
 # robosys2024
-first repository file
+# plusコマンド
+![test](http://github.com/shutatsukui/robosys2024/actions/workflows/test.yml/badge.svg)
