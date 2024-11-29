@@ -10,7 +10,7 @@ res=0
 out=$(echo "Asia/Tokyo" | ./kadai1/sys)
 [[ "$out" == *": 09:00:00 - 15:00:00"* ]] || ng "$LINENO"
 
-out=$(echo  | ./kadai/sys)
+out=$(echo  | ./kadai1/sys)
 [ "$?" = 1 ]      || ng "$LINENO"
 [ "${out}" = *""* ] || ng "$LINENO"
 
