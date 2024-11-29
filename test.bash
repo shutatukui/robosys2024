@@ -12,7 +12,7 @@ out=$(echo "Asia/Tokyo" | ./kadai1/sys)
 
 out=$(echo  | ./kadai1/sys)
 [ "$?" = 1 ]      || ng "$LINENO"
-[ "${out}" = *""* ] || ng "$LINENO"
+[ "${out}" = "" ] || ng "$LINENO"
 
 
 [ "$res" = 0 ] && echo OK
