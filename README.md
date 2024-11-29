@@ -95,3 +95,6 @@ sudoのパスワードを聞かれた場合、パスワードを入力すれば�
   このパッケージのコードは、下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを本人の許可を得て自身の著作としたものです
 
 
+  https://ryuichiueda.github.io/slides_marp/robosys2024/lesson5.html#23
+
+
