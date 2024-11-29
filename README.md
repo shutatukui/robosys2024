@@ -3,7 +3,7 @@
 ![test](http://github.com/shutatsukui/robosys2024/actions/workflows/test.yml/badge.svg)
 
 # 導入方法
-
+``` リポジトリをクローン ```
 ```git clone https://github.com/shutatukui/robosys2024.git```
 
 
