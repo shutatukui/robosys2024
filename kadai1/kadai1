@@ -4,9 +4,9 @@
 from datetime import datetime, time
 import pytz
 
-def show_current_and_market_times():
+def show_current_and_market_times(): 
 
-    #timezone の設定
+    
     tokyo_tz = pytz.timezone('Asia/Tokyo')
     ny_tz = pytz.timezone('America/New_York')
 
