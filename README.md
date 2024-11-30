@@ -84,25 +84,25 @@
 
 
 # 参考にした文献
-[5分でマスター] 初心者はまずREADMEを書け [テンプレート付き]　https://qiita.com/Canard_engineer_c_cpp/items/81ce4e53881138dbf37f
+　- [5分でマスター] 初心者はまずREADMEを書け [テンプレート付き]　https://qiita.com/Canard_engineer_c_cpp/items/81ce4e53881138dbf37f
 
 
-pytzを使ってpythonでタイムゾーンを扱う"正しい"方法　https://qiita.com/non_cal/items/2927fbdfa1d1f355b89d
+  - pytzを使ってpythonでタイムゾーンを扱う"正しい"方法　https://qiita.com/non_cal/items/2927fbdfa1d1f355b89d
 
 
 # ライセンス関係
 
 
-```pytz```ライブラリのライセンス　MIT license
+  - ```pytz```ライブラリのライセンス　MIT license
 
 
-このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます
+  - このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます
 
  
-  このパッケージのコードは、下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを本人の許可を得て自身の著作としたものです
+  - このパッケージのコードは、下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを本人の許可を得て自身の著作としたものです
 
 
-  https://ryuichiueda.github.io/slides_marp/robosys2024/lesson5.html#23
+  - https://ryuichiueda.github.io/slides_marp/robosys2024/lesson5.html#23
 
 
 © 2024 Shuta Tsukui
